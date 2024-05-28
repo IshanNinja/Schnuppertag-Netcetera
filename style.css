@@ -1,0 +1,74 @@
+.title{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xxx-large;
+    color: rgb(2, 28, 75);
+    justify-content: center;
+    
+}
+
+.Menu{
+    
+    font-style: oblique;
+    color: rgb(42, 4, 96);
+    justify-content: left;
+}
+
+
+.Preis{
+    
+color: rgb(72, 76, 114);
+font-style: italic;
+
+justify-content: space-around;
+}
+
+.Button{
+    size: 175px;
+}
+
+.Background-imge{
+    background-image: "";
+}
+
+body{
+    background-image: url(https://www.alumni.ethz.ch/career_services/firmenportraets/netcetera/_jcr_content/par/image_272890406/image.imageformat.1286.1852040773.jpg);
+    background-size:cover;
+    
+}
+
+.logo{
+    display: flex;
+    width: 10%;
+    height: 5%;
+    justify-content: flex-end;
+}
+
+
+
+.net{
+    display: flex;
+    flex-direction:row;
+}
+
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.food:hover .overlay{
+  opacity: 1;
+}
+
